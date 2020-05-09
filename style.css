@@ -252,6 +252,13 @@ article .posts .tile .inner img {
     width: 100%;
     height: auto;
 }
+::-webkit-scrollbar {
+    width: .7em;
+}
+::-webkit-scrollbar-thumb {
+     background-color: #BA0F22; 
+    outline: 1px solid slategrey;
+}
 
 article .posts .tile .inner h4 {
     font-size: 1.1em;
