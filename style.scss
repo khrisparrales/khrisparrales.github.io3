@@ -142,12 +142,12 @@ article .posts {
     display: inline-block;
     width: 100%;
     margin: 60px 0 0;
-    float: left;
+    //  float: left;
 }
 
 article .people .round-tile {
     display: inline-block;
-    float: left;
+    //    float: left;
     margin-bottom: 30px;
     text-align: center;
     text-decoration: none;
@@ -229,7 +229,7 @@ article .people .round-tile h4 {
 
 article .posts .tile {
     display: inline-block;
-    float: left;
+    //  float: left;
     margin-bottom: 30px;
 }
 
@@ -252,11 +252,13 @@ article .posts .tile .inner img {
     width: 100%;
     height: auto;
 }
+
 ::-webkit-scrollbar {
     width: .7em;
 }
+
 ::-webkit-scrollbar-thumb {
-     background-color: #BA0F22; 
+    background-color: #BA0F22;
     outline: 1px solid slategrey;
 }
 
