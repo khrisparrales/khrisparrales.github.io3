@@ -27,17 +27,18 @@ const routes: Routes = [
     path: paths.contact,
     component: ContactComponent,
   },
-  {
-    path: '**',
-    resolve: {
-      path: PathResolveService,
-    },
-    component: NotfoundComponent,
-  },
+  // {
+  //   path: '**',
+  //   resolve: {
+  //     path: PathResolveService,
+  //   },
+  //   component: NotfoundComponent,
+  // },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+   imports: [RouterModule.forRoot(routes)],
+    // imports: [],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
