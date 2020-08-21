@@ -1,37 +1,73 @@
-# angular-action
+/* ------------------------------------------------------
+Template Name: Alime - Photography HTML Template
+Template Author: Colorlib
+Template Author URI: https://colorlib.com
+Version: 1.0.0
+Last Update: Feb 22, 2019
+----------------------------------------------------- */
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+/* --------------------------------
+To start 'Gulp' => npm run start
+-------------------------------- */
 
-## Init
-
-For init the project Run `npm i`
-
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## Creando routing
-
-ng generate module app-routing --flat --module=app
-
+File Structure:
+alime/
+└── src/
+    ├── css/
+    │   ├── default-assets/
+    │   ├── fonts/
+    │   ├── animate.css
+    │   ├── bootstrap.min.css
+    │   ├── font-awesome.min.css
+    │   ├── magnific-popup.css
+    │   ├── nice-select.css
+    │   ├── owl.carousel.min.css
+    │   ├── style.css
+    ├── fonts/
+    ├── img/
+    │   ├── bg-img/
+    │   ├── core-img/
+    ├── js/
+    │   ├── default-assets/
+    │   ├── alime.bundle.js
+    │   ├── bootstrap.min.js
+    │   ├── imagesloaded.pkgd.min.js
+    │   ├── isotope.pkgd.min.js
+    │   ├── jarallax-video.min.js
+    │   ├── jarallax.min.js
+    │   ├── jquery.countdown.min.js
+    │   ├── jquery.counterup.min.js
+    │   ├── jquery.easing.min.js
+    │   ├── jquery.magnific-popup.min.js
+    │   ├── jquery.min.js
+    │   ├── owl.carousel.min.js
+    │   ├── popper.min.js
+    │   ├── waypoints.min.js
+    │   ├── wow.min.js
+    ├── scss/
+    │   ├── mixins/
+    │   ├── utilities/
+    │   ├── about.scss
+    │   ├── backtotop.scss
+    │   ├── blog.scss
+    │   ├── breadcrumb.scss
+    │   ├── buttons.scss
+    │   ├── contact.scss
+    │   ├── follow.scss
+    │   ├── footer.scss
+    │   ├── gallery.scss
+    │   ├── header.scss
+    │   ├── heading.scss
+    │   ├── hero.scss
+    │   ├── preloader.scss
+    │   ├── reboot.scss
+    │   ├── spacing.scss
+    │   ├── style.scss
+    ├── about.html
+    ├── blog.html
+    ├── contact.html
+    ├── gallery.html
+    ├── index.html
+    ├── single-blog.html
+    ├── style.css
+    ├── style.css.map
