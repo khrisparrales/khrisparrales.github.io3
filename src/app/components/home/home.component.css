@@ -1,13 +1,3 @@
-body {
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #31a84f;
-    font-family: 'Poppins', sans-serif;
-    color: rgba(0, 0, 0, 0.8);
-}
-
 .pfl-wrapper {
     display: block;
     width: auto;
@@ -117,7 +107,7 @@ article .profile-photo {
     border-radius: 50%;
     background-color: #fff;
     margin: 0 auto;
-    background-image: url("./profileuser.gif");
+    background-image: url("../../../assets/profileuser.gif");
     background-size: 100%;
     background-position: 80% 0%;
     background-repeat: no-repeat;
@@ -142,12 +132,12 @@ article .posts {
     display: inline-block;
     width: 100%;
     margin: 60px 0 0;
-    //  float: left;
+    float: left;
 }
 
 article .people .round-tile {
     display: inline-block;
-    //    float: left;
+    float: left;
     margin-bottom: 30px;
     text-align: center;
     text-decoration: none;
@@ -189,7 +179,7 @@ article .people .round-tile .roundal.twitter {
 
 article .people .round-tile .roundal.codepen {
     background-color: #000;
-    background-image: url("./codepen.png");
+    background-image: url("../../../assets/codepen.png");
     background-size: 115% auto;
     background-position: center center;
     background-repeat: no-repeat;
@@ -213,7 +203,7 @@ article .people .round-tile .roundal.instagram:before {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("./instagramwhite.png");
+    background-image: url("../../../assets/instagramwhite.png");
     background-size: 50% auto;
     background-position: center center;
     background-repeat: no-repeat;
@@ -229,7 +219,7 @@ article .people .round-tile h4 {
 
 article .posts .tile {
     display: inline-block;
-    //  float: left;
+    float: left;
     margin-bottom: 30px;
 }
 
@@ -251,15 +241,6 @@ article .posts .tile .inner {
 article .posts .tile .inner img {
     width: 100%;
     height: auto;
-}
-
-::-webkit-scrollbar {
-    width: .7em;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #BA0F22;
-    outline: 1px solid slategrey;
 }
 
 article .posts .tile .inner h4 {
