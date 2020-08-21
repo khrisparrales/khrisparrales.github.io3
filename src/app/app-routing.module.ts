@@ -10,11 +10,11 @@ import { PathResolveService } from './services/path-resolve.service';
 import { config } from 'rxjs';
 
 const routes: Routes = [
-  {
-    path: '',
-    pathMatch: 'full',
-    redirectTo: paths.home,
-  },
+  // {
+  //   path: '',
+  //   pathMatch: 'full',
+  //   redirectTo: paths.home,
+  // },
   {
     path: paths.home,
     component: HomeComponent,
